@@ -1,0 +1,53 @@
+INITIALIZING ERROR TESTS
+THE FOLLOWING PORTS ARE NOT ALLOWED:
+TCP (TESTS should demonstrate 0% packet success):
+HPING 192.168.10.1 (enp3s2 192.168.10.1): NO FLAGS are set, 40 headers + 0 data bytes
+HPING 192.168.10.1 (enp3s2 192.168.10.1): NO FLAGS are set, 40 headers + 0 data bytes
+HPING 192.168.10.1 (enp3s2 192.168.10.1): NO FLAGS are set, 40 headers + 0 data bytes
+
+Starting Nmap 7.00 ( https://nmap.org ) at 2016-02-03 20:15 PST
+Initiating ARP Ping Scan at 20:15
+Scanning 192.168.10.1 [1 port]
+Completed ARP Ping Scan at 20:15, 0.01s elapsed (1 total hosts)
+Initiating UDP Scan at 20:15
+Scanning 192.168.10.1 [1 port]
+Completed UDP Scan at 20:15, 0.21s elapsed (1 total ports)
+Nmap scan report for 192.168.10.1
+Host is up (0.00023s latency).
+PORT   STATE         SERVICE
+11/udp open|filtered systat
+MAC Address: 00:02:B3:60:B7:87 (Intel)
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 0.29 seconds
+           Raw packets sent: 3 (84B) | Rcvd: 1 (28B)
+ICMP (TESTS should demonstrate 0% packet success):
+HPING 192.168.10.1 (enp3s2 192.168.10.1): NO FLAGS are set, 40 headers + 0 data bytes
+INITIALIZING SUCCESS TESTS
+THE FOLLOWING PORTS ARE ALLOWED:
+TCP (TESTS should demonstrate 100% packet success):
+HPING 192.168.10.1 (enp3s2 192.168.10.1): NO FLAGS are set, 40 headers + 0 data bytes
+HPING 192.168.10.1 (enp3s2 192.168.10.1): NO FLAGS are set, 40 headers + 0 data bytes
+HPING 192.168.10.1 (enp3s2 192.168.10.1): NO FLAGS are set, 40 headers + 0 data bytes
+UDP (TESTS should demonstrate open or close ports):
+
+Starting Nmap 7.00 ( https://nmap.org ) at 2016-02-03 20:15 PST
+Initiating ARP Ping Scan at 20:15
+Scanning 192.168.10.1 [1 port]
+Completed ARP Ping Scan at 20:15, 0.01s elapsed (1 total hosts)
+Initiating UDP Scan at 20:15
+Scanning 192.168.10.1 [1 port]
+Completed UDP Scan at 20:15, 0.21s elapsed (1 total ports)
+Nmap scan report for 192.168.10.1
+Host is up (0.00022s latency).
+PORT   STATE         SERVICE
+53/udp open|filtered domain
+MAC Address: 00:02:B3:60:B7:87 (Intel)
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 0.27 seconds
+           Raw packets sent: 3 (108B) | Rcvd: 1 (28B)
+ICMP (TESTS should demonstrate 100% packet success):
+HPING 192.168.10.1 (enp3s2 192.168.10.1): NO FLAGS are set, 40 headers + 0 data bytes
+HPING 192.168.10.1 (enp3s2 192.168.10.1): NO FLAGS are set, 40 headers + 0 data bytes
+Finished...

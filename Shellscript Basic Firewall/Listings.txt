@@ -1,0 +1,7 @@
+Listings for Mario Enriquez Assignment 01
+
+Script--------------------------Folder which contains the scripts
+	C8006_Assignment_1.sh---Firewall Script
+	Reset_Tables.sh---------Script to reset the iptables to accept everything 
+Assignment 01 Report------------Contains Design work, Instructions and Tests
+Listings------------------------This Document

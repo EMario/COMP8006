@@ -1,0 +1,9 @@
+Directory for Assignment 2 from Mario Enriquez
+
+File_______________________________Description
+
+Assignment_2.pdf___________________Documentation that includes Design, Tests, Pseudocode and Instructions
+General_Config.sh__________________Script for setting the Host, Firewal and iptables
+Results.txt________________________Example of a results file
+Test_Script.sh_____________________Script for the tests
+Directory.txt______________________This Document

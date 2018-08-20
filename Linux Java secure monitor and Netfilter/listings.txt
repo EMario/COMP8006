@@ -1,0 +1,10 @@
+Listings for MarioEnriquez_C8006_Assignment3
+
+Assignment 3 ------------------------------ Documentation
+Assignment 3 - Annex ---------------------- Tests pictures
+logfile.class ----------------------------- Executable through logfile.java
+logfile$LogData.class --------------------- object within logfile
+logfile$NewData.class --------------------- object within logfile
+config ------------------------------------ configuration file
+logfile.java ------------------------------ executable code
+listings ---------------------------------- this archive
